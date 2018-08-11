@@ -1,5 +1,11 @@
 import React from "react";
 
-export default () => {
-  return <div>I'm the app.</div>;
-};
+import CommentBox from "./CommentBox";
+import CommentList from "./CommentList";
+
+export default () => (
+  <div>
+    <CommentBox />
+    <CommentList />
+  </div>
+);
